@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; 
+  color: #fff;
+}
+#team-section {
+    background-color: black;
+    padding: 2em 0;
+  }
+  
+  #team-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em 0;
+  }
+  
+  #team-section .column {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding: 0 1em;
+    margin-bottom: 2em;
+  }
+  
+  #team-section h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3.5em;
+    color: #fff;
+    margin-bottom: 2em;
+    font-family: Arial, sans-serif;
+  }
+  
+  #team-section .card {
+    box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+    padding: 4em 1em;
+    border-radius: 0.6em;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  #team-section .img-container {
+    width: 8em;
+    height: 8em;
+    background-color: #ebebeb;
+    padding: -0.5em;
+    border-radius: 50%;
+    margin: 0 auto 1em auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+  }
+  
+  #team-section .card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  #team-section .card h3 {
+    font-weight: 500;
+    margin: 0.5em 0;
+    font-size: 1.1em;
+  }
+  
+  #team-section .card p {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0.5em 0 1em 0;
+    letter-spacing: 2px;
+    font-size: 1em;
+  }
+  
+  #team-section .icons {
+    width: 50%;
+    min-width: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #team-section .card a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.4em;
+  }
+  
+  #team-section .card:hover {
+    background: linear-gradient(45deg, #444, #666);
+    color: #fff;
+  }
+  
+  #team-section .card:hover .img-container {
+    transform: scale(1.15);
+    transition: transform 0.3s;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #team-section .column {
+      flex: 0 0 45%;
+      max-width: 45%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #team-section .column {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    #team-section .icons {
+      flex-direction: column;
+    }
+  
+    #team-section .card a {
+      margin-bottom: 0.5em;
+    }
+  }
+  

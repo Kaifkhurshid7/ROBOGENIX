@@ -168,6 +168,8 @@ body {
   background-color: var(--primary-color);
   background-image: none;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 .nav__links {
   list-style: none;

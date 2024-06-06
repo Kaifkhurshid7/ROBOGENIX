@@ -211,7 +211,8 @@ body {
 }
 
 nav {
-  max-width: var(--max-width);
+/*   max-width: var(--max-width); */
+  max-width: 100%;
   margin: auto;
   padding: 0rem 4rem;
   display: flex;

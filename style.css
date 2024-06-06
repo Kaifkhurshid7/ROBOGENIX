@@ -9,7 +9,7 @@
   --secondary-color-dark: #0c0005;
   --text-light: #d1d5db;
   --white: #ffffff;
-  --max-width: 1200px;
+  --max-width: 1300px;
 }
 
 *,
@@ -211,8 +211,8 @@ body {
 }
 
 nav {
-/*   max-width: var(--max-width); */
-  max-width: 100%;
+  max-width: var(--max-width);
+/*   max-width: 100%; */
   margin: auto;
   padding: 0rem 4rem;
   display: flex;
